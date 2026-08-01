@@ -1,0 +1,17 @@
+generated: '2026-07-20'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: revolv.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 21 08:38:00 2026 GMT
+  hsts: false
+domains:
+- domain: revolv.com
+  dnssec: false
+  caa:
+  - ;; connection timed out; no servers could be reached
+  spf: true
+  dmarc: true
+  dmarc_policy: none

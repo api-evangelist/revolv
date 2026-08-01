@@ -1,7 +1,25 @@
 aid: revolv
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/revolv.png
 name: Revolv
-description: Revolv is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Revolv was a smart-home company that built a connected home hub and mobile
+  application to unify control of disparate smart-home devices and wireless protocols
+  from a single app. The company was acquired by Nest (Google) and the Revolv hub and
+  service were subsequently discontinued; owners of purchased Revolv hubs were directed
+  to Nest support for refunds through a deadline of October 31, 2018. This API Evangelist
+  profile is retained as a historical portfolio record. The company publishes no active
+  API, developer portal, SDKs, or public developer surface, so this entry carries only
+  a domain-security probe of its remaining web presence.
 url: https://raw.githubusercontent.com/api-evangelist/revolv/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Smart Home
+- Internet of Things
+- Home Automation
+- Consumer Electronics
+- Connected Devices
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,10 @@ maintainers:
 common:
 - type: Website
   url: https://revolv.com/
+- type: DomainSecurity
+  url: security/revolv-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
